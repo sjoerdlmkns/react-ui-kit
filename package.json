@@ -1,6 +1,6 @@
 {
   "name": "@sjoerdlmkns/react-ui-kit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "rollup": "rollup -c"
