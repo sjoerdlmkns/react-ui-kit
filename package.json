@@ -1,5 +1,5 @@
 {
-  "name": "react-ui-kit",
+  "name": "@sjoerdlmkns/react-ui-kit",
   "version": "0.0.1",
   "type": "module",
   "scripts": {
@@ -24,5 +24,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/sjoerdlmkns"
+  }
 }
