@@ -1,16 +1,28 @@
 {
   "name": "react-ui-kit",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.0.1",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "rollup": "rollup -c"
   },
-  "author": "",
+  "author": "Sjoerd",
   "license": "ISC",
-  "description": "",
+  "description": "React component library",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-typescript": "8.3.3",
     "@types/react": "^19.0.7",
     "react": "^19.0.0",
+    "rollup": "^4.31.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "tslib": "^2.8.1",
     "typescript": "^5.7.3"
-  }
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
 }
